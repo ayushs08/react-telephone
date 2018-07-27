@@ -1,0 +1,20 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.header {
+  background: #eee; }
+
+.navbar {
+  display: flex;
+  padding: 1rem; }
+
+.navbar .brand {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem; }
+
+.navbar .brand__name {
+  padding-left: 1rem; }
