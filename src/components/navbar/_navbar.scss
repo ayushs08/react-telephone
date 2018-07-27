@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  padding: 1rem;
+  position: relative;
+  .brand {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    text-align: center;
+    justify-content: center;
+    &__name {
+      padding-left: 1rem;
+      color: #ff5d5d;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+    }
+  }
+  .search-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 0;
+    display: none;
+  }
+}
