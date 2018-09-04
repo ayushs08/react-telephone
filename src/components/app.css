@@ -23,11 +23,6 @@ body, html {
   text-transform: uppercase;
   letter-spacing: 0.2rem; }
 
-.navbar .search-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  border-radius: 0;
-  display: none; }
+@media (max-width: 768px) {
+  .navbar .brand__name {
+    display: none; } }
